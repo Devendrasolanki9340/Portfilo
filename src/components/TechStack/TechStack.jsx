@@ -3,23 +3,32 @@ import { motion } from 'framer-motion'
 import SEOHead from '../SEO/SEOHead'
 import { SEO_CONFIGS } from '../SEO/seoConfigs'
 import { 
-  SiSpringboot, 
   SiReact, 
   SiTailwindcss, 
-  SiMysql, 
   SiMongodb, 
+  SiPostgresql,
+  SiRedis,
   SiDocker, 
+  SiContainerd,
+  SiKubernetes,
   SiGit,
-  SiIntellijidea,
   SiPostman,
-  SiMariadb,
   SiFramer,
   SiCloudinary,
   SiVercel,
   SiGithub,
+  SiGithubactions,
+  SiRender,
+  SiRailway,  
   SiJavascript,
   SiTypescript,
-  SiNeo4J
+  SiNodedotjs,
+  SiExpress,
+  SiOpenai,
+  //  SiClaude,
+  SiGooglegemini,
+  SiGithubcopilot,
+  SiPerplexity,
 } from 'react-icons/si'
 import { FaDatabase, FaTools, FaCloud, FaRocket, FaJava, FaCube, FaBox, FaCode, FaBrain } from 'react-icons/fa'
 
@@ -34,12 +43,11 @@ function TechStack() {
       bgColor: "bg-orange-500/10",
       borderColor: "border-orange-500/20",
       technologies: [
-        { name: "JavaScript", icon: FaJava, level: "Expert", color: "#ED8B00" },
-        { name: "Node.js", icon: SiSpringboot, level: "Advanced", color: "#6DB33F" },
-        { name: "Spring Security", icon: SiSpringboot, level: "Advanced", color: "#6DB33F" },
-        { name: "Spring Data JPA", icon: SiSpringboot, level: "Advanced", color: "#6DB33F" },
-        { name: "WebSocket", icon: FaCode, level: "Intermediate", color: "#FF6B6B" },
-        { name: "Maven", icon: FaBox, level: "Proficient", color: "#C71A36" }
+        { name: "JavaScript", icon: SiJavascript, level: "Expert", color: "#F7DF1E" },
+        { name: "TypeScript", icon: SiTypescript, level: "Expert", color: "#3178C6" },
+  { name: "Node.js", icon: SiNodedotjs, level: "Advanced", color: "#339933" },
+  { name: "Express.js", icon: SiExpress, level: "Advanced", color: "#9CA3AF" },
+  { name: "WebSocket", icon: FaCode, level: "Intermediate", color: "#FF6B6B" },
       ]
     },
     {
@@ -51,8 +59,8 @@ function TechStack() {
       borderColor: "border-amber-500/20",
       technologies: [
         { name: "React.js", icon: SiReact, level: "Advanced", color: "#61DAFB" },
-        { name: "TailwindCSS", icon: SiTailwindcss, level: "Expert", color: "#06B6D4" },
         { name: "Next.js", icon: FaCube, level: "Intermediate", color: "#000000" },
+        { name: "TailwindCSS", icon: SiTailwindcss, level: "Expert", color: "#06B6D4" },
         { name: "Framer Motion", icon: SiFramer, level: "Advanced", color: "#0055FF" }
       ]
     },
@@ -64,10 +72,9 @@ function TechStack() {
       bgColor: "bg-green-500/10",
       borderColor: "border-green-500/20",
       technologies: [
-        { name: "PostgreSQL", icon: SiMysql, level: "Advanced", color: "#4479A1" },
         { name: "MongoDB", icon: SiMongodb, level: "Advanced", color: "#47A248" },
-        { name: "Redis", icon: SiMariadb, level: "Advanced", color: "#003545" },
-        { name: "Neo4J", icon: SiNeo4J, level: "Beginner", color: "#008CC1" }
+        { name: "PostgreSQL", icon: SiPostgresql, level: "Advanced", color: "#4479A1" },
+        { name: "Redis", icon: SiRedis, level: "Advanced", color: "#003545" },
       ]
     },
     {
@@ -81,7 +88,6 @@ function TechStack() {
         { name: "VS Code", icon: FaCode, level: "Advanced", color: "#007ACC" },
         { name: "Git", icon: SiGit, level: "Advanced", color: "#F05032" },
         { name: "Postman", icon: SiPostman, level: "Proficient", color: "#FF6C37" },
-        { name: "IntelliJ IDEA", icon: SiIntellijidea, level: "Expert", color: "#000000" },
       ]
     },
     {
@@ -93,9 +99,12 @@ function TechStack() {
       borderColor: "border-cyan-500/20",
       technologies: [
         { name: "Docker", icon: SiDocker, level: "Advanced", color: "#2496ED" },
-         { name: "kubernetes", icon: SiDocker, level: "Advanced", color: "#2496ED" },
+         { name: "Containerd", icon: SiContainerd, level: "Advanced", color: "#2496ED" },
+         { name: "kubernetes", icon: SiKubernetes, level: "Advanced", color: "#2496ED" },
         { name: "Vercel", icon: SiVercel, level: "Advanced", color: "#000000" },
+         { name: "Render", icon: SiRender, level: "Advanced", color: "#46E3B7" },
         { name: "GitHub", icon: SiGithub, level: "Advanced", color: "#181717" },
+         { name: "GitHub Actions", icon: SiGithubactions, level: "Advanced", color: "#2088FF" },
         { name: "Cloudinary", icon: SiCloudinary, level: "Proficient", color: "#3448C5" },
       ]
     },
@@ -107,9 +116,11 @@ function TechStack() {
       bgColor: "bg-amber-500/10", 
       borderColor: "border-amber-500/20",
       technologies: [
-        { name: "ChatGPT", icon: FaBrain, level: "Advanced", color: "#10A37F" },
         { name: "Claude AI", icon: FaBrain, level: "Proficient", color: "#CC785C" },
-         { name: "Gemini", icon: FaBrain, level: "Proficient", color: "#CC785C" }
+        { name: "GitHub Copilot", icon: SiGithubcopilot, level: "Advanced", color: "#FFFFFF" },
+        { name: "ChatGPT", icon: SiOpenai, level: "Advanced", color: "#10A37F" },
+          { name: "Gemini", icon: SiGooglegemini, level: "Proficient", color: "#8E75B2" },
+          { name: "Perplexity", icon: SiPerplexity, level: "Proficient", color: "#1FB8CD" },
       ]
     }
   ], [])

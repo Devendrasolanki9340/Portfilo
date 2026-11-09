@@ -12,7 +12,7 @@ import {
 
 const MobileHome = memo(() => {
   const techStack = [
-    { icon: FaJava, name: "JavaScript", color: "text-red-400" },
+    { icon: FaJava, name: "Java", color: "text-red-400" },
     { icon: SiSpringboot, name: "Spring Boot", color: "text-green-400" },
     { icon: SiReact, name: "React", color: "text-cyan-400" },
     { icon: SiTypescript, name: "TypeScript", color: "text-blue-400" },
@@ -59,8 +59,8 @@ const MobileHome = memo(() => {
           <div className="text-lg text-neutral-300 font-semibold min-h-[1.75rem]">
             <TypeWriter
               texts={[
-                "Java Backend Developer",
-                "Spring Boot Specialist",
+                "Full stack Developer",
+                "React or Node.js Specialist",
                 "Full Stack Engineer",
                 "Team Leader",
               ]}

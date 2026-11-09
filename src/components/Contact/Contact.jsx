@@ -159,7 +159,7 @@ function Contact() {
                       value={formData.name}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 rounded-xl bg-neutral-800/50 border border-neutral-700 text-neutral-100 placeholder-neutral-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all"
-                      placeholder="Nguyễn Trần Gia Sĩ"
+                      placeholder="Enter your name"
                       required
                     />
                   </div>
@@ -174,7 +174,7 @@ function Contact() {
                       value={formData.email}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 rounded-xl bg-neutral-800/50 border border-neutral-700 text-neutral-100 placeholder-neutral-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all"
-                      placeholder="giasinguyentran@gmail.com"
+                      placeholder="testname@gmail.com"
                       required
                     />
                   </div>
@@ -293,7 +293,7 @@ function Contact() {
                   <span className="text-sm font-semibold text-amber-400">Open to Work</span>
                 </div>
                 <p className="text-sm text-neutral-400 leading-relaxed">
-                  Currently seeking internship opportunities as a Java Backend Developer. Available to start immediately.
+                  Currently seeking internship opportunities as a Full stack Developer. Available to start immediately.
                 </p>
               </div>
             </motion.div>

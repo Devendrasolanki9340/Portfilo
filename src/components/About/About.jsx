@@ -34,18 +34,18 @@ function About() {
     },
     {
       icon: <FaServer />,
-      title: "Backend Focus",
+      title: "Full stack Focus",
       description: "Building scalable APIs and microservices"
     },
     {
       icon: <FaGraduationCap />,
       title: "IT Student",
-      description: "Industrial University of Ho Chi Minh City"
+      description: "Jawaharlal Institude of Technology (JITM) Khargone"
     },
     {
       icon: <FaMapMarkerAlt />,
       title: "Based in",
-      description: "Ho Chi Minh City, Khargone"
+      description: " Khargone Madhya Pradesh, India"
     }
   ];
 
@@ -111,7 +111,7 @@ function About() {
           >
             <div>
               <h3 className="text-2xl font-bold text-neutral-100 mb-2">
-                Hi, I'm <span className="text-amber-400">Dev solanki</span>
+                Hi, I'm <span className="text-amber-400">Devendra  solanki</span>
               </h3>
               <p className="text-amber-500/80 font-medium">Full-Stack Developer</p>
             </div>
@@ -137,7 +137,7 @@ function About() {
               <div className="w-px h-12 bg-neutral-800"></div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-amber-400">1+</div>
-                <div className="text-xs text-neutral-500">Year Exp</div>
+                <div className="text-xs text-neutral-500">Month Exp</div>
               </div>
               <div className="w-px h-12 bg-neutral-800"></div>
               <div className="text-center">

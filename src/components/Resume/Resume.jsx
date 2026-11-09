@@ -72,7 +72,7 @@ function Resume() {
       title: "Fullstack Developer",
       company: "Personal Projects",
       period: "April 2025 - Present",
-      location: "Ho Chi Minh City, Vietnam",
+      location: "Khargone, Madhya Pradesh, India",
       achievements: [
         "Developed Portfolio website showcasing web development skills using React 19 and TailwindCSS 4",
         "Built CodeHub platform for developers to share and collaborate on code snippets with real-time features",

@@ -19,6 +19,10 @@ import {
   SiMongodb,
   SiRedis,
   SiNextdotjs,
+  SiNodedotjs,
+  SiExpress,
+  SiKubernetes,
+  SiJavascript,
 } from "react-icons/si";
 
 // Lazy load gsap for desktop animations
@@ -61,17 +65,22 @@ function StatCard({ value, label, suffix = "+" }) {
 /* ─── Marquee tech ticker ─── */
 function TechMarquee() {
   const techs = [
-    { icon: FaJava, name: "Java", color: "text-red-400" },
-    { icon: SiSpringboot, name: "Spring Boot", color: "text-green-400" },
-    { icon: SiSpring, name: "Spring", color: "text-green-500" },
-    { icon: SiReact, name: "React", color: "text-cyan-400" },
-    { icon: SiNextdotjs, name: "Next.js", color: "text-white" },
+    { icon: SiJavascript, name: "JavaScript", color: "text-yellow-400" },
     { icon: SiTypescript, name: "TypeScript", color: "text-blue-400" },
     { icon: SiTailwindcss, name: "Tailwind", color: "text-teal-400" },
+    { icon: SiReact, name: "React", color: "text-cyan-400" },
+    { icon: SiNextdotjs, name: "Next.js", color: "text-white" },
+    { icon: SiNodedotjs, name: "Node.js", color: "text-green-600" },
+    { icon: SiExpress, name: "Express.js", color: "text-gray-300" },
+    
+    // { icon: FaJava, name: "Java", color: "text-red-400" },
+    // { icon: SiSpringboot, name: "Spring Boot", color: "text-green-400" },
+    // { icon: SiSpring, name: "Spring", color: "text-green-500" },
     { icon: SiPostgresql, name: "PostgreSQL", color: "text-blue-300" },
     { icon: SiMongodb, name: "MongoDB", color: "text-green-400" },
     { icon: SiRedis, name: "Redis", color: "text-red-500" },
     { icon: SiDocker, name: "Docker", color: "text-blue-400" },
+    { icon: SiKubernetes, name: "Kubernetes", color: "text-blue-500" },
   ];
 
   // Duplicate for seamless loop
@@ -376,10 +385,10 @@ function Home() {
         {/* ══════════ STATS BAR ══════════ */}
         <div className="hero-element">
           <div className="flex flex-wrap justify-center gap-2 md:gap-0 md:divide-x divide-neutral-800 bg-neutral-900/50 border border-neutral-800/60 rounded-2xl backdrop-blur-sm py-2">
-            <StatCard value="8" label="Projects" />
-            <StatCard value="4" label="Team Projects" />
+            <StatCard value="5" label="Projects" />
+            <StatCard value="1" label="Team Projects" />
             <StatCard value="15" label="Technologies" />
-            <StatCard value="3.48" label="CGPA" suffix="/4.0" />
+            <StatCard value="7.0" label="CGPA" suffix="/10.0" />
           </div>
         </div>
 

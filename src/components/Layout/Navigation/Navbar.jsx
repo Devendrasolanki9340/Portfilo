@@ -319,7 +319,7 @@ function Navbar() {
                   <FaArrowRight className="w-3 h-3" />
                 </button>
                 <p className="text-[10px] text-neutral-600 text-center">
-                  © 2026 Nguyen Tran Gia Si
+                  © 2026 Dev solanki
                 </p>
               </div>
             </motion.aside>
