@@ -24,16 +24,16 @@ export const PDF_CONFIG = {
 export const PDF_DATA = {
   resume: {
     personalInfo: {
-      name: "Nguyen Tran Gia Si",
-      email: "giasinguyentran@gmail.com",
-      phone: "+84 34 899 6487",
-      location: "Ho Chi Minh City, Vietnam",
-      linkedin: "linkedin.com/in/giasinguyen",
-      github: "github.com/giasinguyen",
+      name: "Devendra Solanki",
+      email: "Devsolanki4386@gmail.com",
+      phone: "+91 9340438561",
+      location: "Khargone City, Madhya Pradesh, India",
+      linkedin: "linkedin.com/in/devendra4386",
+      github: "github.com/devendra9340",
     },
 
-    summary: `Passionate Full-Stack Developer with expertise in Java ecosystem, React, and modern web technologies. 
-              Experienced in building scalable applications with Spring Boot, microservices architecture, and cloud deployment.`,
+    summary: `Passionate Full-Stack Developer with expertise in JavaScript ecosystem, React, and modern web technologies. 
+              Experienced in building scalable applications with Express.js, microservices architecture, and cloud deployment.`,
 
     experience: [
       {
@@ -41,7 +41,7 @@ export const PDF_DATA = {
         title: "Senior Full-Stack Developer",
         company: "Tech Innovation Co.",
         duration: "2023 - Present",
-        location: "Ho Chi Minh City, Vietnam",
+        location: "Khargone, India",
         responsibilities: [
           "Led development of microservices architecture using Spring Boot and React",
           "Implemented CI/CD pipelines reducing deployment time by 70%",
@@ -49,9 +49,10 @@ export const PDF_DATA = {
           "Architected scalable solutions serving 100K+ daily users",
         ],
         technologies: [
-          "Java 17",
-          "Spring Boot",
+          "JavaScript ",
           "React",
+          "Node.js",
+          "Express.js",
           "PostgreSQL",
           "Docker",
           "AWS",
@@ -90,10 +91,11 @@ export const PDF_DATA = {
 
     skills: {
       technical: [
-        { name: "Java", level: 95, category: "backend" },
-        { name: "Spring Boot", level: 92, category: "backend" },
-        { name: "React", level: 88, category: "frontend" },
+        { name: "JavaScript", level: 95, category: "backend" },
         { name: "TypeScript", level: 85, category: "frontend" },
+        { name: "React", level: 88, category: "frontend" },
+         { name: "Node.js", level: 92, category: "backend" },
+        { name: "Express.js", level: 92, category: "backend" },
         { name: "PostgreSQL", level: 90, category: "database" },
         { name: "MongoDB", level: 82, category: "database" },
         { name: "Docker", level: 80, category: "devops" },
@@ -115,14 +117,14 @@ export const PDF_DATA = {
         description:
           "Full-stack e-commerce solution with microservices architecture",
         technologies: [
-          "Java",
-          "Spring Boot",
+          "JavaScript",
+          "Node.js",
           "React",
           "PostgreSQL",
           "Redis",
           "Docker",
         ],
-        url: "https://github.com/giasinguyen/ecommerce",
+        url: "https://github.com/giasinguyen/Devendrasolanki9340/E-Shopify",
         highlights: [
           "Handles 10K+ concurrent users",
           "99.9% uptime achieved",
@@ -136,7 +138,7 @@ export const PDF_DATA = {
         description:
           "Collaborative project management tool with real-time updates",
         technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-        url: "https://github.com/giasinguyen/task-manager",
+        url: "https://github.com/Devendrasolanki9340/E-Shopify",
         highlights: [
           "Real-time collaboration",
           "Drag-and-drop interface",
@@ -164,9 +166,9 @@ export const PDF_DATA = {
     ],
 
     languages: [
-      { name: "Vietnamese", level: "Native" },
+      { name: "English", level: "Native" },
       { name: "English", level: "Professional Working Proficiency" },
-      { name: "Japanese", level: "Basic Conversational" },
+      { name: "Hindi", level: "Professional Working Proficiency" },
     ],
   },
 };

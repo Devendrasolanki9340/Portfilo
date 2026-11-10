@@ -17,35 +17,35 @@ Full-Stack Developer
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 CONTACT INFORMATION
-📧 Email: giasi@example.com
-📱 Phone: +84 123 456 789
-🔗 LinkedIn: linkedin.com/in/giasinguyen
-💻 GitHub: github.com/giasinguyen
-📍 Location: Ho Chi Minh City, Vietnam
+📧 Email: Devsolanki@gmail.com
+📱 Phone: +91 9340438561
+🔗 LinkedIn: linkedin.com/in/devendra4386
+💻 GitHub: github.com/devendra9340
+📍 Location: Khargone, Madhya Pradesh, India
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 PROFESSIONAL SUMMARY
 
-Passionate Full-Stack Developer with 3+ years of expertise in Java ecosystem, React, 
-and modern web technologies. Experienced in building scalable applications with Spring Boot, 
+Passionate Full-Stack Developer with 1+ years of expertise in JavaScript ecosystem, React, 
+and modern web technologies. Experienced in building scalable applications with Node.js, 
 microservices architecture, and cloud deployment. Strong background in both frontend and 
 backend development with a focus on clean code and best practices.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 WORK EXPERIENCE
 
 🏢 SENIOR FULL-STACK DEVELOPER
 Tech Innovation Co. | March 2023 - Present | Ho Chi Minh City, Vietnam
 
-• Led development of microservices architecture using Spring Boot and React
+• Led development of microservices architecture using Node.js and React
 • Implemented CI/CD pipelines reducing deployment time by 70%
 • Mentored 3 junior developers and conducted regular code reviews
 • Architected scalable solutions serving 100,000+ daily active users
 • Collaborated with cross-functional teams to deliver features on time
 
-Technologies: Java 17, Spring Boot, React, PostgreSQL, Docker, AWS, Jenkins
+Technologies: JavaScript, Node.js, React, PostgreSQL, Docker, AWS, Jenkins
 
 🏢 FRONTEND DEVELOPER
 Digital Solutions Ltd. | June 2021 - February 2023 | Ho Chi Minh City, Vietnam
@@ -95,7 +95,7 @@ Relevant Coursework:
 TECHNICAL SKILLS
 
 💻 BACKEND DEVELOPMENT
-• Java (95%) - Spring Boot, Spring Security, JPA/Hibernate
+• JavaScript (95%) - Node.js, Express.js
 • Database (90%) - PostgreSQL, MongoDB, Redis
 • API Development (92%) - REST, GraphQL, Microservices
 
@@ -130,7 +130,7 @@ Key Features:
 • Advanced search and filtering capabilities
 • Admin dashboard with analytics and reporting
 
-Technologies: Java, Spring Boot, React, PostgreSQL, Redis, Docker, AWS
+Technologies: JavaScript, Node.js, React, PostgreSQL, Redis, Docker, AWS
 GitHub: github.com/giasinguyen/ecommerce-platform
 
 🚀 TASK MANAGEMENT SYSTEM
