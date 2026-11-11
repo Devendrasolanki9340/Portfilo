@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { FaGithub, FaLinkedin, FaHeart, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaHeart, FaEnvelope,FaInstagram, FaTwitter } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
 const Footer = () => {
@@ -24,7 +24,17 @@ const Footer = () => {
       name: 'Email',
       icon: FaEnvelope,
       url: 'mailto:giasinguyentran@gmail.com'
-    }
+    },
+     {
+    name: 'Instagram',
+    icon: FaInstagram,
+    url: 'https://instagram.com/engg_devendra'
+  },
+  {
+    name: 'Twitter',
+    icon: FaTwitter,
+    url: 'https://twitter.com/your_username'
+  },
   ]
 
   const quickLinks = [

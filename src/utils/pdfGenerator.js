@@ -11,7 +11,7 @@
 
 // Sample PDF content that you can convert to PDF
 export const SAMPLE_RESUME_CONTENT = `
-NGUYEN TRAN GIA SI
+Devendra Solanki
 Full-Stack Developer
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -27,7 +27,7 @@ CONTACT INFORMATION
 
 PROFESSIONAL SUMMARY
 
-Passionate Full-Stack Developer with 1+ years of expertise in JavaScript ecosystem, React, 
+Passionate Full-Stack Developer with 1+ months of expertise in JavaScript ecosystem, React, 
 and modern web technologies. Experienced in building scalable applications with Node.js, 
 microservices architecture, and cloud deployment. Strong background in both frontend and 
 backend development with a focus on clean code and best practices.

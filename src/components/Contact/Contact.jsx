@@ -60,7 +60,7 @@ function Contact() {
           email: formData.email,
           message: formData.message,
           subject: `Portfolio Contact: Message from ${formData.name}`,
-          from_name: "GiaSi Portfolio"
+          from_name: "Devendra Portfolio"
         })
       });
 
@@ -92,13 +92,13 @@ function Contact() {
       icon: FaPhone,
       label: "Phone",
       value: "(+91) 9340438561",
-      href: "tel:+84348996487",
+      href: "tel:+ 91 9340438561",
     },
     {
       icon: FaMapMarkerAlt,
       label: "Location",
       value: "Khargone Madhya Pradesh, India",
-      href: "https://maps.google.com/?q=Ho+Chi+Minh+City",
+      href: "https://www.google.co.in/maps/place/Tripathi+bhawan/@21.8142769,75.6227198,17z/data=!3m1!4b1!4m6!3m5!1s0x3bd887000d0406bf:0xf039078acc2fc1a5!8m2!3d21.8142769!4d75.6227198!16s%2Fg%2F11zznwz8h3?entry=ttu&g_ep=EgoyMDI2MTEwOC4wIKXMDSoASAFQAw%3D%3D",
     }
   ];
 

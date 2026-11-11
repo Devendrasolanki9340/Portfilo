@@ -2,22 +2,24 @@ import { useState, useEffect, memo } from "react";
 import TypeWriter from "./TypeWriter";
 import { FaArrowRight, FaGithub, FaLinkedin, FaJava, FaEnvelope, FaDownload } from "react-icons/fa";
 import {
-  SiSpringboot,
   SiJavascript,
   SiReact,
   SiTailwindcss,
   SiTypescript,
-  SiSpring,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiExpress,
 } from "react-icons/si";
 
 const MobileHome = memo(() => {
   const techStack = [
-    { icon: FaJava, name: "Java", color: "text-red-400" },
-    { icon: SiSpringboot, name: "Spring Boot", color: "text-green-400" },
-    { icon: SiReact, name: "React", color: "text-cyan-400" },
-    { icon: SiTypescript, name: "TypeScript", color: "text-blue-400" },
-    { icon: SiSpring, name: "Spring", color: "text-green-500" },
-    { icon: SiTailwindcss, name: "Tailwind", color: "text-teal-400" },
+    { icon: SiJavascript, name: "JavaScript", color: "text-yellow-400" },
+        { icon: SiTypescript, name: "TypeScript", color: "text-blue-400" },
+        { icon: SiTailwindcss, name: "Tailwind", color: "text-teal-400" },
+        { icon: SiReact, name: "React", color: "text-cyan-400" },
+        { icon: SiNextdotjs, name: "Next.js", color: "text-white" },
+        { icon: SiNodedotjs, name: "Node.js", color: "text-green-600" },
+        { icon: SiExpress, name: "Express.js", color: "text-gray-300" },
   ];
 
   const scrollTo = (id) => {
@@ -47,10 +49,10 @@ const MobileHome = memo(() => {
           <div>
             <p className="text-neutral-500 text-sm font-medium mb-2">Hi there, I'm —</p>
             <h1 className="text-4xl font-black leading-tight">
-              <span className="text-neutral-50">Nguyen Tran</span>
+              <span className="text-neutral-50">Devendra Solanki</span>
               <br />
               <span className="bg-gradient-to-r from-amber-300 via-amber-400 to-amber-600 bg-clip-text text-transparent">
-                Gia Si
+                Dev
               </span>
             </h1>
           </div>
@@ -107,7 +109,7 @@ const MobileHome = memo(() => {
               <FaGithub size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/giasinguyen"
+              href="https://linkedin.com/in/devendra4386"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 text-neutral-500 hover:text-amber-400 bg-neutral-900/50 border border-neutral-800/50 rounded-xl transition-colors"
@@ -120,9 +122,9 @@ const MobileHome = memo(() => {
           {/* Stats row */}
           <div className="flex gap-0 divide-x divide-neutral-800 bg-neutral-900/50 border border-neutral-800/60 rounded-xl py-2 mt-2">
             {[
-              { v: "8+", l: "Projects" },
-              { v: "4+", l: "Teams" },
-              { v: "10+", l: "Tech" },
+              { v: "5+", l: "Projects" },
+              { v: "2+", l: "Teams" },
+              { v: "15+", l: "Tech" },
             ].map((s) => (
               <div key={s.l} className="flex-1 text-center px-2">
                 <span className="block text-lg font-black text-amber-400">{s.v}</span>

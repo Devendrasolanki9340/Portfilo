@@ -22,8 +22,8 @@ function Resume() {
 
   const handleDownloadPDF = useCallback(() => {
     const link = document.createElement('a')
-    link.href = '/documents/NguyenTranGiaSi_Intern_Backend_Developer.pdf'
-    link.download = 'NguyenTranGiaSi_Intern_Backend_Developer.pdf'
+    link.href = '/documents/Devendrasolanki.pdf'
+    link.download = 'Devendrasolanki.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -241,7 +241,7 @@ function Resume() {
                   </div>
                   <div className="bg-neutral-800/50 rounded-xl p-4">
                     <iframe
-                      src="/documents/NguyenTranGiaSi_Intern_JAVA_Backend.pdf#toolbar=1&navpanes=1&scrollbar=1&page=1&view=FitH"
+                      src="/documents/DevendraSolanki.pdf#toolbar=1&navpanes=1&scrollbar=1&page=1&view=FitH"
                       className="w-full h-[600px] rounded-lg border border-neutral-700/30"
                       title="Resume PDF"
                       loading="lazy"
@@ -256,7 +256,7 @@ function Resume() {
                       </p>
                       <div className="flex gap-4 justify-center">
                         <a
-                          href="/documents/NguyenTranGiaSi_Intern_JAVA_Backend.pdf"
+                          href="/documents/DevendraSolanki.pdf"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-neutral-900 font-medium px-4 py-2 rounded-lg text-sm transition-colors duration-300"

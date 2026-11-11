@@ -326,9 +326,9 @@ const extractCredentialId = (text) => {
 const extractTechnologies = (text) => {
   // Simple tech extraction - could be much more sophisticated
   const techKeywords = [
-    'java', 'javascript', 'python', 'react', 'angular', 'vue', 'node',
-    'spring', 'express', 'django', 'flask', 'mongodb', 'postgresql',
-    'mysql', 'redis', 'docker', 'kubernetes', 'aws', 'azure', 'gcp'
+     'javascript', 'react','vue', 'node',
+     'express',  'mongodb', 'postgresql',
+    'mysql', 'redis', 'docker', 'kubernetes', 'aws', 'python', 'java', 'c++', 'c#', 'php', 'html', 'css', 'typescript'
   ]
   
   const technologies = []

@@ -6,7 +6,7 @@
 // PDF configuration
 export const PDF_CONFIG = {
   // Default PDF files paths
-  RESUME_PATH: "/documents/GiaSi_Resume.pdf",
+  RESUME_PATH: "/documents/Devendrasolanki.pdf",
   PORTFOLIO_PATH: "/documents/GiaSi_Portfolio.pdf",
   CERTIFICATES_PATH: "/documents/certificates/",
 
@@ -38,7 +38,7 @@ export const PDF_DATA = {
     experience: [
       {
         id: 1,
-        title: "Senior Full-Stack Developer",
+        title: " Full-Stack Developer",
         company: "Tech Innovation Co.",
         duration: "2023 - Present",
         location: "Khargone, India",
@@ -124,7 +124,7 @@ export const PDF_DATA = {
           "Redis",
           "Docker",
         ],
-        url: "https://github.com/giasinguyen/Devendrasolanki9340/E-Shopify",
+        url: "https://github.com/Devendrasolanki9340/E-Shopify",
         highlights: [
           "Handles 10K+ concurrent users",
           "99.9% uptime achieved",
@@ -156,13 +156,13 @@ export const PDF_DATA = {
         date: "2023",
         credentialId: "AWS-DEV-2023-001",
       },
-      {
-        id: 2,
-        name: "Oracle Certified Professional, Java SE Developer",
-        issuer: "Oracle",
-        date: "2022",
-        credentialId: "OCP-JAVA-2022-001",
-      },
+      // {
+      //   id: 2,
+      //   name: "Oracle Certified Professional, Java SE Developer",
+      //   issuer: "Oracle",
+      //   date: "2022",
+      //   credentialId: "OCP-JAVA-2022-001",
+      // },
     ],
 
     languages: [

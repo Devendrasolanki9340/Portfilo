@@ -10,7 +10,7 @@ function GitHubContributions() {
   // Light mode only - no dark mode support
   const darkMode = false;
 
-  const username = 'giasinguyen'; // GitHub username
+  const username = 'Devendrasolanki9340'; // GitHub username
 
   useEffect(() => {
     fetchGitHubData();
