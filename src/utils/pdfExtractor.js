@@ -328,7 +328,7 @@ const extractTechnologies = (text) => {
   const techKeywords = [
      'javascript', 'react','vue', 'node',
      'express',  'mongodb', 'postgresql',
-    'mysql', 'redis', 'docker', 'kubernetes', 'aws', 'python', 'java', 'c++', 'c#', 'php', 'html', 'css', 'typescript'
+     'redis', 'docker', 'kubernetes', 'aws', 'html', 'css', 'typescript'
   ]
   
   const technologies = []

@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 
 const SEOHead = ({ 
-  title = "GiaSi Dev Portfolio - Full Stack Developer",
-  description = "Professional Full Stack Developer specializing in Java, Spring Boot, React, and modern web technologies.",
+  title = " Dev Portfolio - Full Stack Developer",
+  description = "Professional Full Stack Developer specializing in JavaScript, Node.js, React, and modern web technologies.",
   keywords = "portfolio, full stack developer, java developer, react developer, spring boot, javascript, web development",
   image = "/logo.png",
   url = "https://giasinguyen.vercel.app/",

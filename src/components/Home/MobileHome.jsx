@@ -123,7 +123,7 @@ const MobileHome = memo(() => {
           <div className="flex gap-0 divide-x divide-neutral-800 bg-neutral-900/50 border border-neutral-800/60 rounded-xl py-2 mt-2">
             {[
               { v: "5+", l: "Projects" },
-              { v: "2+", l: "Teams" },
+              { v: "1+", l: "Teams" },
               { v: "15+", l: "Tech" },
             ].map((s) => (
               <div key={s.l} className="flex-1 text-center px-2">

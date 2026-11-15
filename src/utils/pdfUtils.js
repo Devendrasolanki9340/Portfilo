@@ -7,7 +7,7 @@
 export const PDF_CONFIG = {
   // Default PDF files paths
   RESUME_PATH: "/documents/Devendrasolanki.pdf",
-  PORTFOLIO_PATH: "/documents/GiaSi_Portfolio.pdf",
+  PORTFOLIO_PATH: "/documents/dev_Portfolio.pdf",
   CERTIFICATES_PATH: "/documents/certificates/",
 
   // PDF viewer options
@@ -63,14 +63,14 @@ export const PDF_DATA = {
         title: "Frontend Developer",
         company: "Digital Solutions Ltd.",
         duration: "2021 - 2023",
-        location: "Ho Chi Minh City, Vietnam",
+        location: "Khargone, Madhya pradesh india",
         responsibilities: [
           "Developed responsive web applications using React and TypeScript",
           "Improved application performance by 40% through optimization",
           "Collaborated with UI/UX team to implement pixel-perfect designs",
           "Integrated RESTful APIs and implemented state management",
         ],
-        technologies: ["React", "TypeScript", "Redux", "TailwindCSS", "Jest"],
+        technologies: ["JavaScript","React", "TypeScript", "Redux", "TailwindCSS", "Jest"],
       },
     ],
 
@@ -79,8 +79,8 @@ export const PDF_DATA = {
         id: 1,
         degree: "Bachelor of Computer Science",
         institution: "University of Technology",
-        duration: "2018 - 2022",
-        gpa: "3.8/4.0",
+        duration: "20124 - 2028",
+        gpa: "7.2/10.0",
         achievements: [
           "Graduated Magna Cum Laude",
           "Best Final Year Project Award",
@@ -96,8 +96,8 @@ export const PDF_DATA = {
         { name: "React", level: 88, category: "frontend" },
          { name: "Node.js", level: 92, category: "backend" },
         { name: "Express.js", level: 92, category: "backend" },
-        { name: "PostgreSQL", level: 90, category: "database" },
         { name: "MongoDB", level: 82, category: "database" },
+        { name: "PostgreSQL", level: 90, category: "database" },
         { name: "Docker", level: 80, category: "devops" },
         { name: "AWS", level: 75, category: "cloud" },
       ],
@@ -105,7 +105,6 @@ export const PDF_DATA = {
         "Leadership",
         "Problem Solving",
         "Team Collaboration",
-        "Project Management",
         "Communication",
       ],
     },
@@ -166,7 +165,6 @@ export const PDF_DATA = {
     ],
 
     languages: [
-      { name: "English", level: "Native" },
       { name: "English", level: "Professional Working Proficiency" },
       { name: "Hindi", level: "Professional Working Proficiency" },
     ],
