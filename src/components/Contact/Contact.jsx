@@ -86,7 +86,7 @@ function Contact() {
       icon: FaEnvelope,
       label: "Email",
       value: "Devsolanki4386@gmail.com",
-      href: "mailto:testName@gmail.com",
+      href: "mailto:devsolanki4386@gmail.com",
     },
     {
       icon: FaPhone,
@@ -174,7 +174,7 @@ function Contact() {
                       value={formData.email}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 rounded-xl bg-neutral-800/50 border border-neutral-700 text-neutral-100 placeholder-neutral-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all"
-                      placeholder="testname@gmail.com"
+                      placeholder="you@example.com"
                       required
                     />
                   </div>
